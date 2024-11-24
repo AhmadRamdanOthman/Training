@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.switcher{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.switcher li{
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eee;
+    min-width: 105px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.switcher li.active,
+.switcher li:hover {
+    background-color: red;
+    color: white;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.gallery img {
+    margin-bottom: 10px;
+    transition: 0.3s;
+    margin-left: 5px;
+    margin-right: 5px;
+}

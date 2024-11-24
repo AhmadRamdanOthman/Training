@@ -1,0 +1,20 @@
+body{
+    height: 5000px;
+}
+.up{
+    position: fixed;
+    right: -30px;
+    bottom: 10px;
+    background-color: #ff7552;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Tahoma,;
+}
+.up.show {
+    right: 10px;
+    transition: ease-in 0.5s;
+}
